@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jeans</title>
+<link rel="stylesheet" href="css/normalize.css">
+<!--<link rel="stylesheet" href="css/style.css">-->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.js"
+  integrity="sha256-yFU3rK1y8NfUCd/B4tLapZAy9x0pZCqLZLmFL3AWb7s="
+  crossorigin="anonymous"></script>
+</head>
+<!--Call functions to read from .txt file-->
+<body onload="readFile('JeanPrice.txt');readFile1('JeanFits.txt');">
+
+<!--Header-->
+<div class="main" style="font-family:Raleway">
+<div class="front"><a href="tshirts.htm">T-Shirts</a></div>
+<div class="front"><a href="shirts.htm" >Shirts</a></div>
+<div class="front"><a href="jeans.htm" >Jeans</a></div>
+<div class="front"><a href="aboutcompetitors.htm" style="float:right">About Competitors</a></div>
+</div> 
+
+<!--Panel 1-->
+<section id="panel1" class="panel">
+    <div id="snowfall"  style="background-image: url('Pictures/jeans.jpg')"></div>
+    <div class="quote">
+    <h2 style="font-family: Raleway; Padding-left:5vh;" class="myquote">JEANS</h2>
+    </div> 
+</section>    
+<a href="#panel2" onclick="return false;" onmousedown="autoScrollTo('panel2');">
+<p class="nextpage">&#x276F;&#x276F;</p></a>
+
+<!--Navigation Bar--> 
+<div id="navi" style="font-family:Raleway">
+    <nav id="myNavbar">
+        <ul>
+            <li><a href="#panel2">Price Range</a></li>
+            <li><a href="#panel3">Fit</a> </li>
+        </ul>
+    </nav>
+</div>  
+    
+<!--Panel 2-->     
+<section id="panel2" class="panel">
+    
+<!--Bar Graph-->
+<h2 style="font-family:Gotu"> Options per Price Range</h2>
+<p style="position: relative; z-index:1; font-size: 1em; font-family: raleway; text-align: center;">The bar graph provides information about the number of options offered by competitor brands in each price range.</p>
+<div class="pricepoint"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Jeans.png" width="85%" style="z-index: -1; padding-left: 7.5%; padding-top: -200px; margin-top:-20px;"></div> 
+<em style="bottom: -50px;"></em>
+    
+<!--Pie Charts-->    
+<div class="pricepie0">
+    <p style="padding-top:100px; padding-bottom: 10px; font-size: 1em; font-family: raleway; text-align: center;" class="pieheading">The pie charts show the distribution of options offered per price range by competitor brands.</p>
+    <img src="Jean/Price/Legend.jpg" style="padding-left:5%" width ="90%"> 
+</div>
+<br>
+<div class="pricepie1" style="padding-left: 2%;"><img src="Jean/Price/Lee.png" style="float: left" width ="24%">    </div>
+<div class="pricepie2"><img src="Jean/Price/Levis.png" style="float: left" width ="24%"></div>
+<div class="pricepie3"><img src="Jean/Price/Pepe%20Jeans.png" style="float: left" width ="24%"></div>
+<div class="pricepie4"><img src="Jean/Price/Jack%20&%20Jones.png" style="float: left" width ="24%"></div>
+<div class="pricepie5" style="padding-left: 2%;"><img src="Jean/Price/U.S.%20Polo%20Assn..png" style="float: left" width ="24%"></div>
+<div class="pricepie6"><img src="Jean/Price/United%20Colors%20of%20Benetton.png" style="float: left" width ="24%"></div>
+<div class="pricepie7"><img src="Jean/Price/American%20Eagle.png" style="float: left" width ="24%"></div>
+<div class="pricepie8"><img src="Jean/Price/Celio.png" style="float: left" width ="24%"></div>
+<em style="margin-top:525px;bottom: -50px;"></em>
+    
+<!--Inference-->
+<div class="inference">
+    <h3 style="font-family:gotu;" class="infer">Inference</h3>
+    <div id="outputtp" style="position: relative; z-index:1; font-size: .85em; line-height: 20px; font-family: raleway; text-align: center;"></div>
+</div>    
+
+<p>&nbsp;</p>
+<em style="bottom: -50px; width:100vw; opacity: 1;"></em>   
+</section>
+<div style="background-color: white;"></div>   
+    
+<!--Panel 3-->
+<section id="panel3" class="panel">
+    
+<!--Bar Graph-->
+<h2 style="font-family:gotu;"> Options per Fit</h2>
+<p style="position: relative; z-index:1; font-size: 1em; font-family: raleway; text-align: center;">The bar graph provides information about the number of options offered by competitor brands sorted based on fit.</p>
+<div class="pricepoint"><img src="Jean/Number%20of%20Options%20per%20Fit%20for%20Jeans.png" width="85%" style="z-index: -1; padding-left: 7.5%; padding-top: -200px; margin-top:-20px;"></div>
+<em style="bottom: -50px;"></em>
+    
+<!--Pie Charts-->
+<div class="pricepie0">
+    <p style="padding-top:100px; padding-bottom: 10px; font-size: 1em; font-family: raleway; text-align: center;" class="pieheading">The pie charts show the distribution of options offered by competitor brands sorted based on fit.</p>
+    <img src="Jean/Fits/Legend.jpg" style="padding-left:15%;" width ="70%"> 
+</div><br>
+<div class="pricepie1"><img src="Jean/Fits/Lee.png" style="float: left; padding-left: 2%;" width ="24%"></div>
+<div class="pricepie2"><img src="Jean/Fits/Levis.png" style="float: left" width ="24%"></div>
+<div class="pricepie3"><img src="Jean/Fits/Pepe%20Jeans.png" style="float: left" width ="24%"></div>
+<div class="pricepie4"><img src="Jean/Fits/Jack%20&%20Jones.png" style="float: left" width ="24%"></div>
+<div class="pricepie5"><img src="Jean/Fits/U.S.%20Polo%20Assn..png" style="float: left;padding-left: 2%;" width ="24%"></div>
+<div class="pricepie6"><img src="Jean/Fits/United%20Colors%20of%20Benetton.png" style="float: left" width ="24%"></div>
+<div class="pricepie7"><img src="Jean/Fits/American%20Eagle.png" style="float: left" width ="24%"></div>
+<div class="pricepie8"><img src="Jean/Fits/Celio.png" style="float: left" width ="24%"></div>  
+<em style="bottom: -600px;"></em>
+    
+<!--Slides-->
+<div class="button0">
+    <p style="margin-top:600px;padding-top:100px; padding-bottom:0px; font-size: 1em; font-family: raleway; text-align: center;">Click on the buttons below to view charts for number of options offered of the various fits in each price range for competitors.</p><br>
+</div>
+<button onclick="toggleimaget1()" class="button1" style="width:12vw; margin: 1vw; opacity:0;">Super Skinny Fit</button>
+<button onclick="toggleimaget2()" class="button1" style="width:12vw; margin: 1vw; opacity:0;">Skinny Fit</button>
+<button onclick="toggleimaget3()" class="button1" style="width:12vw; margin: 1vw; opacity:0;">Slim Fit</button>
+<button onclick="toggleimaget4()" class="button1" style="width:12vw; margin: 1vw; opacity:0;">Slim Straight Fit</button>
+<button onclick="toggleimaget5()" class="button1" style="width:12vw; margin: 1vw; opacity:0;">Slim Tapered Fit</button>
+<button onclick="toggleimaget6()" class="button1" style="width:12vw; margin: 1vw; opacity:0;">Regular Fit</button>
+<button onclick="toggleimaget7()" class="button1" style="width:12vw; margin: 0.5vw; opacity:0;">Bootcut</button>
+
+<div id="imaget1"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Super%20Skinny%20Fit%20Jean.png" style="width:80vw; padding-left: 10vw; "></div>
+<div id="imaget2"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Skinny%20Fit%20Jean.png" style="width:80vw; padding-left: 10vw;"></div>
+<div id="imaget3"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Slim%20Fit%20Jean.png" style="width:80vw; padding-left: 10vw;"></div>
+<div id="imaget4"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Slim%20Straight%20Fit%20Jean.png" style="width:80vw; padding-left: 10vw;"></div>    
+<div id="imaget5"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Slim%20Tapered%20Fit%20Jean.png" style="width:80vw; padding-left: 10vw;"></div>   
+<div id="imaget6"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Regular%20Fit%20Jean.png" style="width:80vw; padding-left: 10vw;"></div> 
+<div id="imaget7"><img src="Jean/Number%20of%20Options%20per%20Price%20Point%20for%20Bootcut%20Fit%20Jean.png" style="width:80vw; padding-left: 10vw;"></div>
+    
+<!--Inference-->
+<em style="bottom: -50px;"></em>
+<div class="inference">
+<h3 style="font-family:gotu;" class="infer">Inference</h3>
+    <div id="outputtc" style="position: relative; z-index:1; font-size: .85em; line-height: 20px; font-family: raleway; text-align: center;"></div>
+</div>    
+
+<p>&nbsp;</p>
+</section>
+
+<!--Footer-->
+<footer style="background-color: #373737; color: #f4f4f4; font-family: raleway; line-height: 30px; text-align: justify;">
+<div style="width:40vw; float: left;">
+    <p style="font-size: 1em; padding: 50px;">The website helps perform competitor analysis by producing graphs for product categories including t-shirts, shirts and jeans generated from real-time data obtained through e-commerce websites.</p>    
+</div>   
+<div style="width:40vw; float: right; padding: 35px 0px;">
+    <a href="tshirts.htm" style="text-decoration: none; color: #f4f4f4;padding-right: 80px; float: left"><img src="tshirt%20logo.png" height="80px"><br>&emsp;&nbsp;T-Shirts</a>
+    <a href="shirts.htm" style="text-decoration: none; color: #f4f4f4;padding-right: 80px; float: left"><img src="shirt%20logo.png" height="80px"><br>&emsp;&emsp;&nbsp;Shirts</a>
+    <a href="jeans.htm" style="text-decoration: none; color: #f4f4f4;padding-right: 80px; float: left"><img src="jean%20logo.png" height="80px"><br>&emsp;&nbsp;&nbsp;Jeans</a>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>      
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script src="js/main.js"></script>        
+<script src="js/particles.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<html>
