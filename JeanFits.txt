@@ -1,0 +1,32 @@
+Overview
+Lee can reduce options of skinny fit.
+Lee provides considerably lesser number of options than competitor brands of slim fit.
+Most competitors provide options of slim straight fit unlike Lee.
+Lee provides considerably lesser number of options than competitor brands of slim tapered fit.
+Lee provides considerably lesser number of options than competitor brands of regular fit.
+
+Skinny Fit Jeans
+Lee can reduce options in the price range < 2000.
+Lee can reduce options in the price range 2000 - 2500.
+Lee provides sufficient options in the price range 2500 - 3000.
+Lee can reduce options in the price range 3000 - 3500.
+Lee provides sufficient options in the price range 3500 - 4000.
+
+Slim Fit Jean
+Lee provides sufficient options in the price range 2000 - 2500.
+Lee provides considerably lesser number of options than competitor brands in the price range 2500 - 3000.
+Lee provides considerably lesser number of options than competitor brands in the price range 3000 - 3500.
+Lee provides sufficient options in the price range 3500 - 4000.
+
+Slim Straight Fit Jean
+Most competitors provide options in the price range 3000 - 3500 unlike Lee.
+Most competitors provide options in the price range 3500 - 4000 unlike Lee.
+
+Slim Tapered Fit Jean
+Lee provides sufficient options in the price range 3000 - 3500.
+Lee provides considerably lesser number of options than competitor brands in the price range 3500 - 4000.
+
+Regular Fit Jean
+Lee can reduce options in the price range 2000 - 2500.
+Lee provides sufficient options in the price range 2500 - 3000.
+Most competitors provide options in the price range 3500 - 4000 unlike Lee.

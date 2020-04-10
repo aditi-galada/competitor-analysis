@@ -1,0 +1,28 @@
+Overview
+Lee provides least number of options of solid t-shirt.
+Lee provides sufficient options of printed t-shirt.
+Lee provides considerably lesser number of options than competitor brands of striped t-shirt.
+Lee provides considerably lesser number of options than competitor brands of color blocked t-shirt.
+Most competitors provide options of textured fabric unlike Lee.
+
+Solid T-Shirt
+Lee provides least number of options in the price range < 1000.
+Lee provides considerably lesser number of options than competitor brands in the price range 1000 - 1500.
+Lee provides least number of options in the price range 1500 - 2000.
+Most competitors provide options in the price range 2000 - 2500 unlike Lee.
+
+Printed T-Shirt
+Lee provides sufficient options in the price range < 1000.
+Lee provides sufficient options in the price range 1000 - 1500.
+Lee provides considerably lesser number of options than competitor brands in the price range 1500 - 2000.
+
+Striped T-Shirt
+Most competitors provide options in the price range < 1000 unlike Lee.
+Lee provides sufficient options in the price range 1000 - 1500.
+Most competitors provide options in the price range 1500 - 2000 unlike Lee.
+
+Colorblocked T-Shirt
+Lee provides considerably lesser number of options than competitor brands in the price range 1500 - 2000.
+
+Textured Fabric T-Shirt
+Most competitors provide options in the price range 1000 - 1500 unlike Lee.

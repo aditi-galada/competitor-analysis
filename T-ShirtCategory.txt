@@ -1,0 +1,23 @@
+Overview
+Lee provides considerably lesser number of options than competitor brands of round neck t-shirt.
+Most competitors provide options of v-neck t-shirt unlike Lee.
+Lee provides considerably lesser number of options than competitor brands of polo t-shirt.
+Most competitors provide options of mandarin t-shirt unlike Lee.
+Lee provides sufficient options of henley.
+
+Round Neck T-Shirt
+Lee provides considerably lesser number of options than competitor brands in the price range < 1000.
+Lee provides considerably lesser number of options than competitor brands in the price range 1000 - 1500.
+Lee provides considerably lesser number of options than competitor brands in the price range 1500 - 2000.
+
+V Neck T-Shirt
+Most competitors provide options in the price range < 1000 unlike Lee.
+
+Polo T-Shirt
+Lee provides sufficient options in the price range 1000 - 1500.
+Lee provides considerably lesser number of options than competitor brands in the price range 1500 - 2000.
+Most competitors provide options in the price range 2000 - 2500 unlike Lee.
+
+Henley T-Shirt
+Lee provides sufficient options in the price range 1000 - 1500.
+Lee provides sufficient options in the price range 1500 - 2000.
