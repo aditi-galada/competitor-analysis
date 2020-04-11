@@ -4,7 +4,7 @@
 <title>T-Shirts</title>
 <link rel="stylesheet" href="css/normalize.css">
 <!--<link rel="stylesheet" href="css/style.css">-->
-<link rel="stylesheet" href="css/tshirts.css">
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
   crossorigin="anonymous"></script>
 </head>
 <!--Call functions to read from .txt file-->
-<body onload="readFile();readFile1();readFile2();">
+<body onload="readFile('T-ShirtPrice.txt');readFile1('T-shirtCategory.txt');readFile2('T-ShirtTechnique.txt');">
 
 <!--Header-->
 <div class="main" style="font-family:Raleway">
@@ -26,7 +26,7 @@
 
 <!--Panel 1-->
 <section id="panel1" class="panel">
-    <div id="snowfall"></div>
+    <div id="snowfall"  style="background-image: url('Pictures/tshirts.jpg')"></div>
     <div class="quote">
     <h2 style="font-family: Raleway" class="myquote">T-SHIRTS</h2>
     </div> 
@@ -200,7 +200,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>      
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>        
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-<script src="js/tshirts.js"></script>        
+<script src="js/main.js"></script>        
 <script src="js/particles.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
