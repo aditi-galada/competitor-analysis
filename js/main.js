@@ -482,16 +482,18 @@ scene.reverse(false)
              
 var timeline = new TimelineMax()
     .add(TweenMax.from(("#panel3 h2"),1,{opacity:0, scale:3}))
-    .add(TweenMax.from(("#panel3 p"),1,{opacity:0, scale:1.5}))
-    .from('#panel3 .pricepoint', 1, {x: '-150%', delay:1, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#panel3 .pricepoint', triggerHook:.2})
+    .add(TweenMax.from(("#panel3 .types"),1,{opacity:0, scale:0}))
+var scene= new ScrollMagic.Scene({triggerElement:'#panel3 .pricepoint', triggerHook:.9})
 .setTween(timeline)
 scene.reverse(false)    
 .addTo(controller);
-
-var scene= new ScrollMagic.Scene({triggerElement:'#panel3', triggerHook:.7})
+    
+var timeline = new TimelineMax()
+    .add(TweenMax.from(("#panel3 p"),1,{opacity:0, scale:1.5}))
+    .from('#panel3 .pricepoint', 1, {x: '-150%', delay:0.5, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#panel3 .pricepoint', triggerHook:.4})
 .setTween(timeline)
-scene.reverse(false)
+scene.reverse(false)    
 .addTo(controller);
     
 var scene = new ScrollMagic.Scene({triggerElement:"#panel3 .pricepie0", triggerHook:.8})  
@@ -566,16 +568,18 @@ scene.reverse(false)
 
 var timeline = new TimelineMax()
     .add(TweenMax.from(("#panel4 h2"),1,{opacity:0, scale:3}))
-    .add(TweenMax.from(("#panel4 p"),1,{opacity:0, scale:1.5}))
-    .from('#panel4 .pricepoint', 1, {x: '-150%', delay:2, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#panel4 .pricepoint', triggerHook:.2})
+    .add(TweenMax.from(("#panel4 .types"),1,{opacity:0, scale:0}))
+var scene= new ScrollMagic.Scene({triggerElement:'#panel4 .pricepoint', triggerHook:.9})
 .setTween(timeline)
 scene.reverse(false)    
 .addTo(controller);
-
-var scene= new ScrollMagic.Scene({triggerElement:'#panel4', triggerHook:.7})
+    
+var timeline = new TimelineMax()
+    .add(TweenMax.from(("#panel4 p"),1,{opacity:0, scale:1.5}))
+    .from('#panel4 .pricepoint', 1, {x: '-150%', delay:0.5, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#panel4 .pricepoint', triggerHook:.4})
 .setTween(timeline)
-scene.reverse(false)
+scene.reverse(false)    
 .addTo(controller);
     
 var scene = new ScrollMagic.Scene({triggerElement:"#panel4 .pricepie0", triggerHook:.8})  
